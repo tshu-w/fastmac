@@ -1,1 +1,4 @@
-echo Edit script-linux.sh in your fastmac repo to auto-run commands in your linux instances
+git clone https://github.com/tshu-w/dotfiles.git
+cd dotfiles
+make
+sudo apt install zsh
